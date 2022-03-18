@@ -21,7 +21,7 @@ def is_overlaped(coordinate_pasted,*coordinate_bk):
         if sum(bk_img)=sum(bk_img|cell_img)
             not overlapped
         if sum(bk_img)>sum(bk_img|cell_img)
-            overlapped_size=sum(bk_img|cell_img)-sum(bk_img)
+            overlapped_size=sum(cell_img)-(sum(bk_img|cell_img)-sum(bk_img))
             overlapped_precent=overlapped_size/bk_cell
     '''
 
