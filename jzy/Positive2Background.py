@@ -18,14 +18,15 @@ def is_overlaped(coordinate_pasted,*coordinate_bk):
         bk_cell=1
         cell_img=1
 
-        if sum(bk_img)=sum(bk_img|cell_img)
-            not overlapped
-        if sum(bk_img)>sum(bk_img|cell_img)
-            overlapped_size=sum(cell_img)-(sum(bk_img|cell_img)-sum(bk_img))
-            overlapped_precent=overlapped_size/bk_cell
+        ifcroped=|(bk_cell ∩ cell_img)
+        croped_size=sum(sum)
+            
     '''
 
     pass
+
+
+
 
 
 
